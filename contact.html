@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+     <title>Contact</title>
+    <style>
+      
+        header {
+            background-color: rgb(107, 103, 103);
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        .container {
+            max-width: 610px;
+            margin:  auto;
+            padding: 20px;
+            background-color:white
+        }
+        input, textarea {
+            display: block;
+            width: 90%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #e0b395;
+            color: rgb(14, 13, 13);
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact</h1>
+    </header>
+    <div class="container">
+        <form>
+            <p>Name:</p>
+            <input type="text" id="name" placeholder="enter name" required>
+
+            <p>Email:</p>
+            <input type="email" id="email" placeholder="enter email" required>
+
+            <p>Query</p>
+            <textarea id="Query" placeholder="query" rows="4" required ></textarea>
+            <br>
+        
+            <button >Submit</button>
+        </form>
+    </div>
+  
+</body>
+</html>
